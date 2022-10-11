@@ -1,0 +1,408 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+.hero-container {
+  image: url("https://wp-themes.com/wp-content/themes/hestia/assets/img/slider1.jpg");
+  height: 655px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wp-themes.com/wp-content/themes/hestia/assets/img/slider1.jpg");
+  repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+.hero-container .hero-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.hero-container .hero-content .title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.hero-container .hero-content .subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Roboto Slab, Helvetica, sans-serif;
+}
+.hero-container .hero-content .button {
+  margin-top: 50px;
+}
+.hero-container .hero-content .button button {
+  background-color: rgb(233, 30, 90);
+  border-style: none;
+  width: 122px;
+  border-radius: 3px;
+}
+.hero-container .hero-content .button button p a {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.page-container {
+  z-index: -2;
+  background-color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23));
+}
+.page-container .main-content {
+  z-index: 1;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 96%;
+  margin: -60px auto 0 auto;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+.page-container .main-content .content-card-1 {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-container .main-content .content-card-1 .content {
+  height: 422px;
+  width: 80%;
+}
+.page-container .main-content .content-card-1 .content .title {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: rgb(60, 72, 88);
+  font-family: Roboto slab, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.page-container .main-content .content-card-1 .content .item-wrapper {
+  height: 73%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page-container .main-content .content-card-1 .content .item-wrapper * p {
+  font-size: 13px;
+  color: #999999;
+  text-align: center;
+  line-height: 1.2rem;
+}
+.page-container .main-content .content-card-1 .content .item-wrapper .left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-container .main-content .content-card-1 .content .item-wrapper .left i {
+  color: rgb(233, 30, 90);
+}
+.page-container .main-content .content-card-1 .content .item-wrapper .middle {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-container .main-content .content-card-1 .content .item-wrapper .middle i {
+  color: rgb(22, 175, 203);
+}
+.page-container .main-content .content-card-1 .content .item-wrapper .right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-container .main-content .content-card-1 .content .item-wrapper .right i {
+  color: rgb(64, 164, 62);
+}
+.page-container .main-content .content-card-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid black;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-container .main-content .content-card-2 .content {
+  color: white;
+  width: 77%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-container .main-content .content-card-2 .content .left {
+  width: 45%;
+  height: 50%;
+}
+.page-container .main-content .content-card-2 .content .left .title {
+  font-family: Roboto Slab, Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+.page-container .main-content .content-card-2 .content .left .subtitle {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 300;
+  color: rgb(214, 213, 213);
+}
+.page-container .main-content .content-card-2 .content .right {
+  width: 50%;
+  height: 50%;
+}
+.page-container .main-content .content-card-2 .content .right img {
+  width: 100%;
+  height: 100%;
+}
+.page-container .main-content .content-card-3 {
+  font-family: Roboto slab, Helvetica, sans-serif;
+  width: 100%;
+  height: 452px;
+  background-color: white;
+  display: grid;
+}
+.page-container .main-content .content-card-3 .title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.page-container .main-content .content-card-3 .title h2 {
+  font-size: 37px;
+  font-weight: 700;
+  color: rgb(60, 72, 88);
+}
+.page-container .main-content .content-card-3 .content {
+  margin-left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.page-container .main-content .content-card-3 .content * h4 {
+  color: #3c4858;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.page-container .main-content .content-card-3 .content * p a {
+  font-size: 10.5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+.page-container .main-content .content-card-3 .content * p {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #999;
+  font-size: 13px;
+  line-height: 1.618;
+  font-weight: 300;
+}
+.page-container .main-content .content-card-3 .content .left {
+  width: 30%;
+  text-align: left;
+}
+.page-container .main-content .content-card-3 .content .left p a {
+  color: rgb(117, 0, 138);
+}
+.page-container .main-content .content-card-3 .content .middle {
+  width: 30%;
+  text-align: left;
+}
+.page-container .main-content .content-card-3 .content .middle p a {
+  color: rgb(22, 172, 200);
+}
+.page-container .main-content .content-card-3 .content .right {
+  width: 30%;
+  text-align: left;
+}
+.page-container .main-content .content-card-3 .content .right p a {
+  color: rgb(239, 43, 41);
+}
+.page-container .main-content .content-card-4 {
+  z-index: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Roboto slab, Helvetica, sans-serif;
+  width: 100%;
+  height: 422px;
+  background-color: white;
+  display: grid;
+}
+.page-container .main-content .content-card-4 .content {
+  height: 452px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 8%;
+  color: white;
+}
+.page-container .main-content .content-card-4 .content .title h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+.page-container .main-content .content-card-4 .content .location {
+  width: 24%;
+}
+.page-container .main-content .content-card-4 .content .location h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.page-container .main-content .content-card-4 .content .location h4 i {
+  padding: 8px;
+}
+.page-container .main-content .content-card-4 .content .location p {
+  margin-left: 30px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.page-container .main-content .content-card-4 .content .call {
+  width: 26%;
+}
+.page-container .main-content .content-card-4 .content .call h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.page-container .main-content .content-card-4 .content .call h4 i {
+  padding: 8px;
+}
+.page-container .main-content .content-card-4 .content .call p {
+  margin-left: 30px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.hero-container {
+  background-image: linear-gradient(90deg, rgba(159, 0, 110, 0.9), rgba(218, 27, 94, 0.9));
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+.hero-container .hero-content {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 5%;
+}
+.hero-container .hero-content h1 {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+}
+
+.page-container {
+  z-index: -2;
+  background-color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23));
+  display: flex;
+}
+.page-container .main-content {
+  background-color: white;
+  z-index: 1;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 96%;
+  margin: -60px auto 0 auto;
+  font-family: Roboto, Helvetica, sans-serif;
+  height: 1682px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 65px 0 70px;
+}
+.page-container .main-content .content-card {
+  width: 70%;
+  padding: 0 15px;
+}
+.page-container .main-content .content-card h2 {
+  font-family: Roboto Slab, "Times New Roman", Times, serif;
+  color: rgb(60, 72, 88);
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 5px 0 10px 0;
+}
+.page-container .main-content .content-card p {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #999;
+  font-size: 13px;
+  line-height: 1.618;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+}
+.page-container .main-content .content-card p a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.page-container .main-content .content-card h6 {
+  margin: 5px 0 0 0;
+}
+.page-container .main-content .content-card h6.link-one a {
+  font-size: 10.5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Roboto, Helvetica, sans-serif;
+  color: rgb(117, 0, 138);
+}
+.page-container .main-content .content-card h6.link-two a {
+  font-size: 10.5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Roboto, Helvetica, sans-serif;
+  color: rgb(22, 175, 203);
+}
+.page-container .main-content .content-card h6.link-three a {
+  font-size: 10.5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Roboto, Helvetica, sans-serif;
+  color: rgb(238, 43, 41);
+}
+.page-container .main-content .content-card h6.link-four a {
+  font-size: 10.5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Roboto, Helvetica, sans-serif;
+  color: rgb(253, 134, 6);
+}
+.page-container .main-content .content-card h6.link-five a {
+  font-size: 10.5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Roboto, Helvetica, sans-serif;
+  color: rgb(225, 0, 81);
+}
+.page-container .main-content .content-card h6.link-six a {
+  font-size: 10.5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Roboto, Helvetica, sans-serif;
+  color: rgb(64, 164, 62);
+}
+.page-container .main-content .content-card h6.link-seven a {
+  font-size: 10.5px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Roboto, Helvetica, sans-serif;
+  color: rgb(117, 0, 138);
+}/*# sourceMappingURL=blog.css.map */
